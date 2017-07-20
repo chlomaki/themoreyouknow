@@ -43,15 +43,60 @@
 					color: #BAE3FF;
 				}
 				
+///////////////
+				
+				.container {
+				  position: relative;
+				  width: 50%;
+				}
 
+				.image {
+				  display: block;
+				  width: 100px;
+				  height: auto;
+				}
+
+				.overlay {
+				  position: absolute;
+				  top: 0;
+				  bottom: 0;
+				  left: 0;
+				  right: 0;
+				  height: 100%;
+				  width: 100%;
+				  opacity: 0;
+				  transition: .5s ease;
+				  background-color: #FFD9D9;
+				}
+
+				.container:hover .overlay {
+				  opacity: 1;
+				}
+
+				.text {
+				  color: white;
+				  font-size: 20px;
+				  position: absolute;
+				  top: 50%;
+				  left: 50%;
+				  transform: translate(-50%, -50%);
+				  -ms-transform: translate(-50%, -50%);
+				}
+				
+				///////////
 			</style>
 	</head>
 		<img src="https://vignette4.wikia.nocookie.net/steven-universe/images/e/eb/Top_Hat_Alien.png/revision/latest?cb=20160721190534" style="position:fixed; margin-bottom: 400px; right: 0; height: 500px;">
 		<div>
 		
 			<ph><img src="http://68.media.tumblr.com/tumblr_lppbihN26L1qzaauu.gif">  welcome  <img src="http://68.media.tumblr.com/tumblr_lppbihN26L1qzaauu.gif"></ph>
-			<p>hi im annie and aliens are my friends</p><br><br><br><p> oc pages:</p>
-			
+			<p>hi im annie and aliens are my friends</p><br><br><p> oc pages:</p>
+				<div class="container">
+  				<img src="https://68.media.tumblr.com/514df6aec7fd4991609627813730ffc5/tumblr_otd8ypScI31w4cuejo1_400.png" alt="Avatar" class="image">
+  				<div class="overlay">
+    				<div class="text">az</div>
+  				</div>
+					</div>
 		</div>
 	</body>
 </html>
